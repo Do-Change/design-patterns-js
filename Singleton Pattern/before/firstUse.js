@@ -2,8 +2,8 @@ import FancyLogger from './fancyLogger.js'
 
 const logger = new FancyLogger()
 
-export default function logSecondImplementation() {
+export default function logFirstImplementation() {
   logger.printLogCount()
-  logger.log('Second file')
+  logger.log('First file')
   logger.printLogCount()
 }
